@@ -1,32 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Outo Binance</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Outo Binance - Crypto Trading Platform</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #0f0f0f;
-      color: white;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d1117;
+      color: #fff;
+    }
+    header {
+      background: #161b22;
+      padding: 2rem;
       text-align: center;
-      padding: 50px;
     }
-    h1 {
-      color: #00ffae;
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
-    a.button {
-      padding: 10px 20px;
-      background: #00ffae;
+    .btn {
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #f0b90b;
       color: #000;
-      border-radius: 5px;
-      text-decoration: none;
       font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .feature-box {
+      background: #21262d;
+      padding: 2rem;
+      border-radius: 10px;
+      width: 280px;
+    }
+    footer {
+      background: #161b22;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Outo Binance</h1>
-  <p>Secure crypto trading for everyone.</p>
-  <a class="button" href="#">Get Started</a>
+  <header>
+    <h1>Outo Binance</h1>
+    <p>Trade crypto easily and safely</p>
+    <a href="#features" class="btn">Get Started</a>
+  </header>
+
+  <section id="features">
+    <h2>Platform Features</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>Secure Wallet</h3>
+        <p>Protect your coins with advanced wallet encryption.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Real-Time Trading</h3>
+        <p>Trade major coins like BTC, ETH, SOL and more instantly.</p>
+      </div>
+      <div class="feature-box">
+        <h3>24/7 Support</h3>
+        <p>Our team is always available for you.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Outo Binance. All rights reserved.
+  </footer>
 </body>
 </html>
